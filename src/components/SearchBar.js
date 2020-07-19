@@ -1,5 +1,5 @@
 import React from 'react';
-//bra att kunna med Forms i react
+//bra att kunna med Forms i reactt
 class SearchBar extends React.Component {
   state = { term: '' };
   //notera de 2 olika sätten med events. En i onFormSubmit, och en i input onChange, inline mot callback
